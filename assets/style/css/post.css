@@ -7,7 +7,7 @@
   body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(to bottom, black, #2a0000, #5a0000);
+    background: black;
     min-height: 100vh;
     display: flex;
     align-items: center;

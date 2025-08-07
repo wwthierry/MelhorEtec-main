@@ -207,3 +207,9 @@ body {
 .secondary-nav-link:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
+
+@keyframes highlight {
+  0% { box-shadow: 0 0 0 0 rgba(74, 144, 226, 0.7); }
+  50% { box-shadow: 0 0 0 15px rgba(74, 144, 226, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(74, 144, 226, 0); }
+}
